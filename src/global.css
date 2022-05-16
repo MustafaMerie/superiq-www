@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "HelveticaNeueLTArabic";
+  font-weight: 400;
+  src: url("./fonts/HelveticaNeueLTArabic45Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTArabic";
+  font-weight: 500;
+  src: url("./fonts/HelveticaNeueLTArabic55Roman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTArabic";
+  font-weight: 700;
+  src: url("./fonts/HelveticaNeueLTArabic75Bold.ttf") format("truetype");
+}
+
+body {
+  font-family: "HelveticaNeueLTArabic", Georgia, serif !important;
+  font-weight: 500;
+  direction: rtl;
+}

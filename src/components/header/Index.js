@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <Navbar className="py-4" fixed="top" expand="lg" expanded={expanded}>
-        <Container>
+        <Container className="flex-row-reverse">
           <Navbar.Brand href="#home">
             <img
               src={logo}
@@ -32,7 +32,7 @@ const Header = () => {
             )}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto text-center">
+            <Nav className="me-auto text-center flex-lg-row-reverse">
               <Nav.Link onClick={() => setExpanded(false)} href="#home">
                 شنو سوبر عراقي؟
               </Nav.Link>

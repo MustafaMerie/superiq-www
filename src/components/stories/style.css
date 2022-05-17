@@ -1,0 +1,83 @@
+.stories {
+  padding: 100px 0;
+}
+
+.slider_content {
+  background: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: right;
+}
+
+.slider_content .quote {
+  font-size: 50px;
+  font-weight: 700;
+  color: #08384d;
+}
+
+.person {
+  margin-top: 50px;
+}
+
+.person_info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person_info img {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 5px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.person_info_caption {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.person .person_info .bio {
+  color: #808080;
+  padding-top: 10px;
+}
+
+.stories .slick-prev:before,
+.stories .slick-next:before {
+  color: #09384d;
+}
+
+@media (max-width: 992px) {
+  .slider_content .quote {
+    font-size: 35px;
+  }
+
+  .person_info_caption {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider_content .quote {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_content {
+    padding: 50px 25px;
+  }
+  
+  .person {
+    text-align: center;
+  }
+
+  .person_info {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .person_info_caption {
+    font-size: inherit;
+  }
+}

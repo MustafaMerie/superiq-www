@@ -1,0 +1,21 @@
+.what_is_superiq {
+  background: #f5f5f5;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 80px 0;
+}
+
+.what_is_superiq_caption {
+  text-align: right;
+}
+
+.what_is_superiq .title {
+  font-weight: 700;
+  color: #08384d;
+}
+
+.what_is_superiq .caption {
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}

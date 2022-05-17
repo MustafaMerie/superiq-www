@@ -44,8 +44,8 @@ const Storeis = () => {
           <Col>
             <Slider {...settings}>
               {data.map((person) => (
-                <div className="slider_content">
-                  <h3 className="quote"> {person.quote}</h3>
+                <div className="slider_content" key={person.name}>
+                  <h3 className="quote blue_color"> {person.quote}</h3>
                   <div className="person">
                     <div className="person_info">
                       <div className="person_info_caption">

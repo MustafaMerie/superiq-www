@@ -9,7 +9,7 @@ const WhatIsSuperiq = () => {
       <Container>
         <Row className="flex-lg-row-reverse">
           <Col xs={10} lg={6} className="what_is_superiq_caption m-auto">
-            <h1 className="title">شنو هي منح سوبر عراقي؟</h1>
+            <h1 className="title blue_color">شنو هي منح سوبر عراقي؟</h1>
             <p className="caption">
               احنه نؤمن انو كل انسان عراقي عنده قوة بداخله، تخليه يكدر يتحمل
               الظروف الصعبة الي تولدت نتيجة صعوبة الحياة الي ترعرعنا بيها، بس

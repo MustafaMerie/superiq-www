@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import scrollDown from "../../images/scroll_down.svg";
+import scroll_down from "../../images/scroll_down.svg";
 import "./style.css";
 
 const Intro = () => {
@@ -13,7 +13,7 @@ const Intro = () => {
               <h1>شلون رح تستخدم القوة الخارقة مالتك؟</h1>
               <Button variant="none" className="btn_more">
                 أسحب للاسفل لمعرفة المزيد
-                <img src={scrollDown} alt="scroll down" />
+                <img src={scroll_down} alt="scroll down" />
               </Button>
             </div>
           </Col>

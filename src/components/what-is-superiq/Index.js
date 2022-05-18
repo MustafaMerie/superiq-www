@@ -5,7 +5,7 @@ import "./style.css";
 
 const WhatIsSuperiq = () => {
   return (
-    <section className="what_is_superiq">
+    <section id="what_is_superiq" className="what_is_superiq">
       <Container>
         <Row className="flex-lg-row-reverse">
           <Col xs={10} lg={6} className="what_is_superiq_caption m-auto">

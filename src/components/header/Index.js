@@ -33,19 +33,22 @@ const Header = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto text-center flex-lg-row-reverse">
-              <Nav.Link onClick={() => setExpanded(false)} href="#home">
+              <Nav.Link
+                onClick={() => setExpanded(false)}
+                href="#what_is_superiq"
+              >
                 شنو سوبر عراقي؟
               </Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} href="#link">
+              <Nav.Link onClick={() => setExpanded(false)} href="#journeys">
                 أمثلة
               </Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} href="#link">
+              <Nav.Link onClick={() => setExpanded(false)} href="#our_support">
                 انواع الدعم
               </Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} href="#link">
+              <Nav.Link onClick={() => setExpanded(false)} href="#apply_now">
                 قدم الآن
               </Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} href="#link">
+              <Nav.Link onClick={() => setExpanded(false)} href="#support_us">
                 ادعم المشروع
               </Nav.Link>
             </Nav>

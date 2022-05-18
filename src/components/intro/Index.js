@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import scroll_down from "../../images/scroll_down.svg";
 import "./style.css";
 
@@ -11,10 +11,10 @@ const Intro = () => {
           <Col className="content">
             <div className="caption">
               <h1>شلون رح تستخدم القوة الخارقة مالتك؟</h1>
-              <Button variant="none" className="btn_more">
+              <a href="#what_is_superiq" variant="none" className="btn_more">
                 أسحب للاسفل لمعرفة المزيد
                 <img src={scroll_down} alt="scroll down" />
-              </Button>
+              </a>
             </div>
           </Col>
         </Row>

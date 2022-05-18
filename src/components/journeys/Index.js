@@ -43,7 +43,7 @@ const Journeys = () => {
   ];
 
   return (
-    <section className="journeys">
+    <section id="journeys" className="journeys">
       <Container fluid>
         <Row className="journeys_intro">
           <Col xs={11} className="journeys_intro_col">

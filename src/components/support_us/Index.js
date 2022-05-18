@@ -10,7 +10,7 @@ const SupportUs = () => {
     <section className="support_us pt-5">
       <Container>
         <Row className="justify-content-between">
-          <Col xs={11} lg={4} className="support_us_box">
+          <Col id="support_us" xs={11} lg={4} className="support_us_box">
             <div className="icon_box">
               {" "}
               <img className="icon" src={icon_yellow_heart} alt="heart icon" />
@@ -38,7 +38,7 @@ const SupportUs = () => {
             </p>
           </Col>
 
-          <Col xs={11} lg={4} className="support_us_box">
+          <Col id="apply_now" xs={11} lg={4} className="support_us_box">
             <div className="icon_box">
               {" "}
               <img className="icon" src={icon_strong} alt="strong icon" />

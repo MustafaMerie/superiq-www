@@ -10,7 +10,7 @@ import "./style.css";
 
 const OurSupport = () => {
   return (
-    <section className="our_support py-5 text-end">
+    <section id="our_support" className="our_support text-end">
       <Container className="our_support_container">
         <Row>
           <Col>

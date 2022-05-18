@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/footer/Index";
 import Header from "./components/header/Index";
 import Intro from "./components/intro/Index";
 import Journeys from "./components/journeys/Index";
@@ -18,6 +19,7 @@ function App() {
       <Journeys />
       <OurSupport />
       <SupportUs />
+      <Footer />
     </>
   );
 }

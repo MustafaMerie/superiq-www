@@ -7,7 +7,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const SupportUs = () => {
   return (
-    <section className="support_us py-5">
+    <section className="support_us pt-5">
       <Container>
         <Row className="justify-content-between">
           <Col xs={11} lg={4} className="support_us_box">

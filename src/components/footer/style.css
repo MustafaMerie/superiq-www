@@ -1,0 +1,31 @@
+.footer_container {
+  padding: 20px;
+  background-color: #08384d;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.footer_container p.strong {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer_container p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.footer_container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .footer_container {
+    text-align: center;
+    border-radius: 0;
+  }
+  .footer_logo {
+    margin-bottom: 20px;
+  }
+}

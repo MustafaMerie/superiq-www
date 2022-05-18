@@ -15,28 +15,49 @@ const Footer = () => {
           </Col>
           <Col xs={4} md={2}>
             <p className="strong">المزيد</p>
-            <a href="#f" target="_blank">
+            <a
+              href="https://academy.bloom.pm/ar/blog/"
+              target="_blank"
+              rel="noreferrer"
+            >
               المدونة
             </a>
             <p className="mt-2">تــابــعــونــا</p>
-            <a className="me-2" href="www.facebook.com" target="_blank">
+            <a
+              className="me-2"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={icon_fb} alt="facebook link" />
             </a>
-            <a href="www.ig.com" target="_blank">
+            <a
+              href="https://www.instagram.com/super.iraqis"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={icon_ig} alt="instagram link" />
             </a>
           </Col>
 
           <Col xs={4} md={2}>
             <p className="strong">صفحات</p>
-            <a href="#f" target="_blank">
+            <a
+              href="https://academy.bloom.pm/ar/faq/"
+              target="_blank"
+              rel="noreferrer"
+            >
               الاسئلة الشائعة
             </a>
           </Col>
 
           <Col xs={4} md={2}>
             <p className="strong">الاكاديمية</p>
-            <a href="#f" target="_blank">
+            <a
+              href="https://academy.bloom.pm/ar"
+              target="_blank"
+              rel="noreferrer"
+            >
               البرامج
             </a>
           </Col>

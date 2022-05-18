@@ -1,0 +1,44 @@
+.support_us_box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.support_us_box .icon_box {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.support_us_box .title {
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.support_us_box p {
+  color: #08384d;
+  font-weight: 400;
+}
+
+.support_us_box .link {
+  background-color: #f49200;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.support_us_box .email_us {
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+@media (max-width: 992px) {
+  .support_us_box {
+    margin: 10px auto;
+  }
+}

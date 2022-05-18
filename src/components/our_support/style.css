@@ -1,0 +1,80 @@
+.our_support {
+  background-color: #efefef;
+}
+
+.our_support_container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+}
+.our_support .icon {
+  display: inline-block;
+  padding: 8px 45px;
+  border-radius: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.our_support .icon img {
+  margin-right: 5px;
+}
+
+.icon_plane {
+  background-color: #08384d;
+  color: #fff;
+}
+
+.icon_couch {
+  background-color: #fdce88;
+  color: #f49200;
+}
+
+.icon_car {
+  background-color: #fa22002e;
+  color: #fa2200;
+}
+
+.icon_bag {
+  background-color: #2d2c2c2e;
+  color: #2d2c2c;
+}
+
+.icon_tools {
+  background-color: #bfbebe4b;
+  color: #70575c;
+}
+
+.icon_money {
+  background-color: #b9862e37;
+  color: #b9852e;
+}
+
+.our_support_ul {
+  direction: rtl;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.our_support_ul li::marker {
+  color: #f49200;
+}
+
+.our_support_bottom_p {
+  background-color: #fdce88;
+  color: #071921;
+  display: inline-block;
+  margin-right: 2rem;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .our_support .icon {
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 12px;
+  }
+}

@@ -39,22 +39,20 @@
   margin-left: 10px;
 }
 
-
 /* Media queries */
 
 @media screen and (max-width: 991px) {
-    .intro_section .content {
-      margin: 0 5%;
-    }
-  
-    .intro_section .content .caption h1 {
-      font-size: 60px;
-    }
+  .intro_section .content {
+    margin: 0 5%;
   }
-  
-  @media screen and (max-width: 576px) {
-    .intro_section .content .caption h1 {
-      font-size: 35px;
-    }
+
+  .intro_section .content .caption h1 {
+    font-size: 60px;
   }
-  
+}
+
+@media screen and (max-width: 576px) {
+  .intro_section .content .caption h1 {
+    font-size: 35px;
+  }
+}
